@@ -8,7 +8,7 @@ class DadJokesTermCounter():
         pass
 
     def count_terms(self, joke_strings):   
-        words = self.process_jokes(joke_strings)
+        words = self.process_joke_strings(joke_strings)
         
         counts = {}
         for word in words:
@@ -18,7 +18,7 @@ class DadJokesTermCounter():
         sorted_counts = {k: v for k, v in sorted(counts.items(), key=lambda count: count[1], reverse=True)}
         return sorted_counts
 
-    def process_jokes(self, joke_strings):
+    def process_joke_strings(self, joke_strings):
         # decode strings and combine
         joke_string = " ".join([string.decode('utf-8') for string in joke_strings])
 
