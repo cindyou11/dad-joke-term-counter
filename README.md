@@ -3,10 +3,10 @@
 ***
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [The Backend](#the-backed)
+- [The Backend](#the-backend-snake)
     - [Setting Up the Python Environment](#setting-up-the-python-environment)
     - [Running the Python Code](#running-the-python-code)
-- [The Frontend](#the-frontend)
+- [The Frontend](#the-frontend-shield)
     - [Setting Up the Angular Environment](#setting-up-the-Angular-environment)
     - [Running the Angular Code](#running-the-Angular-code)
 
@@ -19,7 +19,7 @@ Setup instructions for this project are split into the backend and frontend comp
 Once you've got the backend and frontend components successfully running, the application look as follows after clicking the "Get me counts!" button:
 ![alt text](readme-imgs/running-app.png)
 
-## :snake: The Backend
+## The Backend :snake:
 ### Setting Up the Python Environment
 **Skip this part if your environment is already setup to run Python.**
 For this project, I've used [`pyenv`](https://github.com/pyenv/pyenv) with [`pyenv-virtualenv`](https://github.com/pyenv/pyenv-virtualenv) on macOS. For Windows, you can use [`pyenv-win`](https://github.com/pyenv-win/pyenv-win) and [`virtualenvwrapper`](https://virtualenvwrapper.readthedocs.io/en/latest/), which basically does the same things.
@@ -56,7 +56,7 @@ For this project, I've used [`pyenv`](https://github.com/pyenv/pyenv) with [`pye
 
 
 
-## :shield: The Frontend
+## The Frontend :shield:
 ### Setting Up the Angular Environment
 **Skip this part if your environment is already setup to run Angular.**
 * Install Node and npm if you don't already have it (https://nodejs.org/en/)
