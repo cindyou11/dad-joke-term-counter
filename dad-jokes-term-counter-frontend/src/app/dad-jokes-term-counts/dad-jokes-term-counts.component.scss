@@ -1,0 +1,33 @@
+.magenta { color: #b21d8d; }
+
+.btn-outline {
+    color: #b21d8d;
+    border-color: #b21d8d;
+    background-color: transparent;
+
+    &:hover, &:focus {
+        color: #a601b5;
+        box-shadow: 0 0 0 0.2rem #f5d2ff;
+    }
+}
+
+.error-text { 
+    color: red !important;
+}
+
+.form-control {
+
+    &:focus {
+        border-color: #b571a1;
+        box-shadow: 0 0 0 0.2rem #f6f7ff;
+    }
+
+    &.error {
+        border-color: red !important;
+        box-shadow: 0 0 0 0.2rem #ff9f94 !important;
+    }
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #f6f7ff;
+}
