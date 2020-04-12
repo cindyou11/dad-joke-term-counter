@@ -64,7 +64,7 @@ For this project, I've used [`pyenv`](https://github.com/pyenv/pyenv) with [`pye
 * Install Angular CLI by running `npm install -g @angular/cli`
 
 
-#### Running the Angular Code
+### Running the Angular Code
 * In your shell go into the **dad-joke-term-counter-frontend** folder (from the root repo run: `cd dad-joke-term-counter-frontend`)
 
 * Install dependencies by running `npm install`
